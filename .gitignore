@@ -1,0 +1,33 @@
+# Bytecode compilado
+*.class
+
+# Arquivos de log
+*.log
+
+# Arquivos de pacotes Java
+*.jar
+*.war
+*.ear
+
+# Diretórios de build
+/bin/
+/build/
+/out/
+
+# Configurações específicas de IDEs
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
