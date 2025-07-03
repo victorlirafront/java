@@ -3,10 +3,23 @@ public class Loops {
         int callForLoopResult = callForLoop();
         int callWhileLoopResult = callWhileLoop();
         int callDoWhileLoopResult = callDoWhileLoop();
+        int callForeachLoopResult = callForeachLoop();
 
         System.out.println("forLoopResult " + callForLoopResult);
         System.out.println("callWhileLoop " + callWhileLoopResult);
         System.out.println("callDoWhileLoop " + callDoWhileLoopResult);
+        System.out.println("callForeachLoop " + callForeachLoopResult);
+    }
+
+    public static int callForeachLoop(){
+        int[] numbers = {1,2,3,4};
+        int result = 0;
+
+        for (int num: numbers) {
+            result += num;
+        }
+
+        return result;
     }
 
     public static int callDoWhileLoop(){
