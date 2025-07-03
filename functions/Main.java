@@ -1,4 +1,4 @@
-public class Functions {
+public class Main {
     public static void main(String[] args){
         boolean isEvenResult = isEven(2);
         boolean isUnderAgeResult = isUnderAge(15);
