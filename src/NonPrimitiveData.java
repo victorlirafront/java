@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Main {
+public class NonPrimitiveData {
     public static void main(String[] args) {
         // 🧵 1. String
         String name = "Victor";

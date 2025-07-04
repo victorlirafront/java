@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class DataStructure {
     public static void main(String[] args) {
         // 🔹 1. Array (nativo)
         int[] numeros = new int[5];

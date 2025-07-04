@@ -1,33 +1,29 @@
-# Bytecode compilado
-*.class
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
 
-# Arquivos de log
-*.log
-
-# Arquivos de pacotes Java
-*.jar
-*.war
-*.ear
-
-# Diretórios de build
-/bin/
-/build/
-/out/
-
-# Configurações específicas de IDEs
-
-# IntelliJ IDEA
-.idea/
-*.iml
-
-# Eclipse
-.project
+### Eclipse ###
+.apt_generated
 .classpath
-.settings/
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
 
-# VS Code
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
 .vscode/
 
-# Arquivos do sistema operacional
+### Mac OS ###
 .DS_Store
-Thumbs.db
