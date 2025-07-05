@@ -1,25 +1,16 @@
 package exercises;
 
-import java.util.Scanner;
-
 public class CalculateTheAverage {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        double notaPortugues = lerNota(scanner, "Português");
-        double notaMatematica = lerNota(scanner, "Matemática");
-        double notaFilosofia = lerNota(scanner, "Filosofia");
+        // 🔹 Substituindo a entrada do usuário por valores fixos:
+        double notaPortugues = 7.5;
+        double notaMatematica = 6.0;
+        double notaFilosofia = 8.25;
 
         double media = calcularMedia(notaPortugues, notaMatematica, notaFilosofia);
 
         System.out.printf("Média = %.2f%n", media);
         System.out.println(media >= 5 ? "Aprovado" : "Reprovado");
-    }
-
-    private static double lerNota(Scanner scanner, String materia) {
-        System.out.print("Digite a nota de " + materia + ": ");
-        String entrada = scanner.next().replace(",", ".");
-        return Double.parseDouble(entrada);
     }
 
     private static double calcularMedia(double... notas) {
