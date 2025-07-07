@@ -3,7 +3,7 @@ package dataStructure;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Array {
+public class ArrayExample {
     public static void main(String[] args) {
         declareSpace();
         declareAndInitialize();
