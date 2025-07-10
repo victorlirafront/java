@@ -9,6 +9,6 @@ public class Arithmetic {
         System.out.println("a - b: " + (a - b)); // 7
         System.out.println("a * b: " + (a * b)); // 30
         System.out.println("a / b: " + (a / b)); // 3 (sem decimal)
-        System.out.println("a % b: " + (a % b)); // 1 (resto da divisão)
+        System.out.println("a % b: " + (a % b)); // 1 (resto da divisão)//
     }
 }
