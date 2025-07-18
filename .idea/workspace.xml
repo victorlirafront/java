@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d0432702-672e-4fa5-817f-62e87872b233" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/java-fundamentals.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fundamentals/fundamentals.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fundamentals/src/java-fundamentals.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nelio-alves/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nelio-alves/calculateProducts/calculateProducts.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nelio-alves/triangle/course-1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nelio-alves/triangle/triangle.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentals.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructure.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Functions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loops.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NonPrimitiveData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Variables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataEntry/ScannerExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/ArrayExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/ArvoreBinaria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/DequeExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/ListExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/MapExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/PriorityQueueExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/QueueExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/SetExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/StackExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercises/CalculateTheAverage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java-fundamentals.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/operators/Arithmetic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/operators/Relational.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strings/StringsExample.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "victorlirafront"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/victorlirafront/java.git",
+    "accountId": "098ca3b0-3beb-4800-96d4-f3b9576b3f50"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="302lHt5xqAmRYgKocZDxeQDU9JJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "develop",
+    "last_opened_file_path": "C:/Users/Micro/Documents/github/java-fundamentals"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0432702-672e-4fa5-817f-62e87872b233" name="Changes" comment="" />
+      <created>1752833463406</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1752833463406</updated>
+    </task>
+    <servers />
+  </component>
+</project>
