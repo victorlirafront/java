@@ -1,15 +1,35 @@
+import java.util.Scanner;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter account number: ");
+        String account = scanner.nextLine();
+
+        System.out.print("Enter the account holder: ");
+        String userName = scanner.nextLine();
+
+        System.out.print("Is there an initial deposit (y/n)? ");
+        String response = scanner.next();
+        boolean hasInitialValue = response.equalsIgnoreCase("y");
+        
+        double balance = 0;
+
+
+        if(hasInitialValue) {
+            System.out.println("Enter initial deposit value:");
+            balance += scanner.nextInt();
         }
+
+        //Step 2
+        System.out.println("Account Data:");
+        System.out.printf("Account %2s, holder: %2s, Balance: $ %2.2f", account, userName, balance);
+
+
+        scanner.close();
     }
 }
