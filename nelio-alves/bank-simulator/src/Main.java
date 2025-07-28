@@ -19,7 +19,6 @@ public class Main {
         
         double balance = 0;
 
-
         if(hasInitialValue) {
             System.out.println("Enter initial deposit value:");
             balance += scanner.nextInt();
@@ -27,8 +26,20 @@ public class Main {
 
         //Step 2
         System.out.println("Account Data:");
-        System.out.printf("Account %2s, holder: %2s, Balance: $ %2.2f", account, userName, balance);
+        System.out.printf("Account %2s, holder: %2s, Balance: $ %2.2f \n", account, userName, balance);
 
+        //Step 3
+        System.out.println("Enter a deposit value:");
+        balance += scanner.nextDouble();
+        System.out.println("Updated account data:");
+        System.out.printf("Account %2s, holder: %2s, Balance: $ %2.2f \n", account, userName, balance);
+
+        //Step 4
+        System.out.println("Enter a withdraw value:");
+        balance -= scanner.nextDouble();
+        balance -= 5;
+
+        System.out.printf("Account %2s, holder: %2s, Balance: $ %2.2f \n", account, userName, balance);
 
         scanner.close();
     }
