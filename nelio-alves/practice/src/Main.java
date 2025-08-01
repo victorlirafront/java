@@ -1,11 +1,10 @@
-import exercises.Person;
+import exercises.Exercise_2.Animal;
+import exercises.Exercise_2.Dog;
 
 public class Main {
     public static void main(String[] args) {
+        Animal dog = new Dog("Dog", 2, "Rottweiler");
 
-        Person person = new Person("Victor", 28, "172.398.000-00");
-        System.out.println(person.getName());
-        System.out.println(person.getAge());
-        System.out.println(person.getCpf());
+        dog.fazerSom(); // Saída: Au au!
     }
 }

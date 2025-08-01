@@ -1,4 +1,4 @@
-package exercises;
+package exercises.Exercise_1;
 
 public class Person {
     private String name;
